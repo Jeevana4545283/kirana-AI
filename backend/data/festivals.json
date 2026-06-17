@@ -1,0 +1,85 @@
+{
+  "festivals": [
+    {
+      "name": "Sankranti",
+      "date": "2026-01-14",
+      "products": [
+        {"name": "Rice", "spike_percent": 30, "recommended_qty": "100 kg"},
+        {"name": "Jaggery", "spike_percent": 45, "recommended_qty": "50 kg"},
+        {"name": "Sesame", "spike_percent": 60, "recommended_qty": "20 kg"}
+      ]
+    },
+    {
+      "name": "Holi",
+      "date": "2026-03-03",
+      "products": [
+        {"name": "Milk", "spike_percent": 50, "recommended_qty": "100 L"},
+        {"name": "Sugar", "spike_percent": 30, "recommended_qty": "40 kg"},
+        {"name": "Dry Fruits", "spike_percent": 25, "recommended_qty": "15 kg"}
+      ]
+    },
+    {
+      "name": "Ugadi",
+      "date": "2026-03-19",
+      "products": [
+        {"name": "Jaggery", "spike_percent": 40, "recommended_qty": "30 kg"},
+        {"name": "Mango", "spike_percent": 70, "recommended_qty": "50 kg"},
+        {"name": "Tamarind", "spike_percent": 25, "recommended_qty": "10 kg"}
+      ]
+    },
+    {
+      "name": "Ramadan",
+      "date": "2026-03-20",
+      "products": [
+        {"name": "Dates", "spike_percent": 80, "recommended_qty": "50 kg"},
+        {"name": "Dry Fruits", "spike_percent": 40, "recommended_qty": "25 kg"},
+        {"name": "Sugar", "spike_percent": 30, "recommended_qty": "50 kg"}
+      ]
+    },
+    {
+      "name": "Bonalu",
+      "date": "2026-07-05",
+      "products": [
+        {"name": "Jaggery", "spike_percent": 35, "recommended_qty": "30 kg"},
+        {"name": "Rice", "spike_percent": 20, "recommended_qty": "50 kg"},
+        {"name": "Turmeric", "spike_percent": 50, "recommended_qty": "10 kg"}
+      ]
+    },
+    {
+      "name": "Onam",
+      "date": "2026-08-26",
+      "products": [
+        {"name": "Rice", "spike_percent": 40, "recommended_qty": "100 kg"},
+        {"name": "Banana Chips", "spike_percent": 60, "recommended_qty": "50 pkts"},
+        {"name": "Coconut Oil", "spike_percent": 45, "recommended_qty": "30 L"}
+      ]
+    },
+    {
+      "name": "Ganesh Chaturthi",
+      "date": "2026-09-14",
+      "products": [
+        {"name": "Jaggery", "spike_percent": 35, "recommended_qty": "40 kg"},
+        {"name": "Coconut", "spike_percent": 50, "recommended_qty": "100 units"},
+        {"name": "Rice Flour", "spike_percent": 40, "recommended_qty": "30 kg"}
+      ]
+    },
+    {
+      "name": "Durga Puja",
+      "date": "2026-10-17",
+      "products": [
+        {"name": "Sweets", "spike_percent": 60, "recommended_qty": "50 boxes"},
+        {"name": "Oil", "spike_percent": 30, "recommended_qty": "40 L"},
+        {"name": "Flour", "spike_percent": 25, "recommended_qty": "50 kg"}
+      ]
+    },
+    {
+      "name": "Diwali",
+      "date": "2026-11-08",
+      "products": [
+        {"name": "Sugar", "spike_percent": 40, "recommended_qty": "100 kg"},
+        {"name": "Ghee", "spike_percent": 35, "recommended_qty": "50 L"},
+        {"name": "Oil", "spike_percent": 20, "recommended_qty": "30 L"}
+      ]
+    }
+  ]
+}

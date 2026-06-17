@@ -1,0 +1,4 @@
+product_id,product_name,current_stock,reorder_level
+101,Aashirvaad Atta 5kg,8,15
+102,Fortune Oil 1L,5,10
+103,Maggi 70g,150,50

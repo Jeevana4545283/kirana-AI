@@ -1,0 +1,6 @@
+id,name,product_id,price,delivery_time_days,reliability_score
+1,Raju Wholesale,101,190,1,0.95
+2,Metro Cash & Carry,101,185,2,0.99
+3,Super Mart,102,145,1,0.90
+4,City Distributors,102,140,3,0.98
+5,Local Vendor,103,12,1,0.85

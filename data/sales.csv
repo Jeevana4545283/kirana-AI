@@ -1,0 +1,10 @@
+sale_date,product_id,product_name,quantity_sold,total_price
+2023-10-01,101,Aashirvaad Atta 5kg,12,2400
+2023-10-02,101,Aashirvaad Atta 5kg,15,3000
+2023-10-03,101,Aashirvaad Atta 5kg,20,4000
+2023-10-01,102,Fortune Oil 1L,5,750
+2023-10-02,102,Fortune Oil 1L,8,1200
+2023-10-03,102,Fortune Oil 1L,6,900
+2023-10-01,103,Maggi 70g,50,700
+2023-10-02,103,Maggi 70g,60,840
+2023-10-03,103,Maggi 70g,45,630
