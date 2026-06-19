@@ -14,19 +14,20 @@ export default async function Dashboard() {
   let forecastData = [];
   let seasonData = null;
   try {
-    const seasonRes = await fetch('http://localhost:8000/api/season', { cache: 'no-store' });
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+    const seasonRes = await fetch(`${baseUrl}/api/season`, { cache: 'no-store' });
     if (seasonRes.ok) {
       seasonData = await seasonRes.json();
     }
 
-    const res = await fetch('http://localhost:8000/api/inventory', { cache: 'no-store' });
+    const res = await fetch(`${baseUrl}/api/inventory`, { cache: 'no-store' });
     if (res.ok) {
       const data = await res.json();
       alerts = data.alerts || [];
     }
     
     // Fetch forecast for item 101 as an example
-    const fRes = await fetch('http://localhost:8000/api/forecast/101', { cache: 'no-store' });
+    const fRes = await fetch(`${baseUrl}/api/forecast/101`, { cache: 'no-store' });
     if (fRes.ok) {
       const fData = await fRes.json();
       if(fData.forecast && Array.isArray(fData.forecast)) {

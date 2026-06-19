@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from 'react-hot-toast';
-import Sidebar from "@/components/Sidebar";
+import AppShell from "@/components/AppShell";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,12 +23,9 @@ export default function RootLayout({
         <div className="blob blob-1"></div>
         <div className="blob blob-2"></div>
         
-        <div className="flex">
-          <Sidebar />
-          <div className="flex-1 lg:ml-64 relative z-10">
-            {children}
-          </div>
-        </div>
+        <AppShell>
+          {children}
+        </AppShell>
         
         <Toaster 
           position="top-right"

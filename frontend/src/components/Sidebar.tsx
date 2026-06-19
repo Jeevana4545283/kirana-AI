@@ -1,7 +1,17 @@
+'use client';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { LayoutDashboard, Package, TrendingUp, Bot, Settings, LogOut } from 'lucide-react';
 
 export default function Sidebar() {
+  const router = useRouter();
+
+  const handleLogout = (e: React.MouseEvent) => {
+    e.preventDefault();
+    localStorage.removeItem('isLoggedIn');
+    router.push('/login');
+  };
+
   return (
     <div className="hidden lg:flex flex-col w-64 h-screen fixed left-0 top-0 border-r border-white/10 glass z-40 p-6">
       <div className="flex items-center gap-3 mb-12">
@@ -22,7 +32,13 @@ export default function Sidebar() {
 
       <div className="mt-auto space-y-2 pt-6 border-t border-white/10">
         <NavItem icon={<Settings size={20} />} label="Settings" />
-        <NavItem icon={<LogOut size={20} />} label="Logout" />
+        <button 
+          onClick={handleLogout}
+          className="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-slate-400 hover:text-white hover:bg-white/5"
+        >
+          <LogOut size={20} />
+          <span className="font-medium text-sm">Logout</span>
+        </button>
       </div>
     </div>
   );

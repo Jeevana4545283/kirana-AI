@@ -1,9 +1,9 @@
 'use client';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { Sparkles, AlertTriangle, Truck } from 'lucide-react';
 
 export default function InsightsPanel() {
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -11,7 +11,7 @@ export default function InsightsPanel() {
     }
   };
 
-  const item = {
+  const item: Variants = {
     hidden: { opacity: 0, x: 20 },
     show: { opacity: 1, x: 0, transition: { type: "spring" } }
   };
